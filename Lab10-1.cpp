@@ -10,7 +10,7 @@ int isLet(char ch)
 
 char ParseArr(string cfile, int n)
 {
-    ofstream res("arraysinCprog1.txt", ofstream::app); //вывести имена многомерных массивов размерность которых больше чем n ячеек
+    ofstream res("arraysinCprog1.txt", ofstream::app); 
     if(res.is_open()){
         int pos1 = -1;
         int pos2 = 0;
