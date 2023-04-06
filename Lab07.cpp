@@ -7,7 +7,7 @@ void Check(){
     for (int i = 0; i < 3; i++){
         cin >> a[i];
     }
-    double max; //ввести координаты точек, можно ли через них построить прямоугольник
+    double max;
     max = a[0];
     for (int i = 0; i < 3; i++){
         if (a[i] > max){
