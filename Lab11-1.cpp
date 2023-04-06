@@ -96,4 +96,3 @@ int main()
     outText(mas, count, wcount, "programming");
     delete[] mas;
 }
-//вывод повторяющихся слов и количество их появлений
